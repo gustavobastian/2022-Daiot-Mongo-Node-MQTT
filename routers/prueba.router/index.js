@@ -26,7 +26,7 @@ clientMqtt.on("connect", async function () {
         const mensaje = {
             dispositivoId: elemento,
             nombre: "ESP32_TEMP_NODEjs",
-            ubicacion: "Terraza",
+            ubicacion: "Bastian",
             logId: 1,
             ts: new Date().getTime(),
             luz1: 0,
